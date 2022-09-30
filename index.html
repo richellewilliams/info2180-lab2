@@ -9,15 +9,16 @@
 <body>
 <div class="container">
     <header class="header">
-        <img id="Photo-of-Richelle-Williams" src="Photo-of-Richelle-Williams.JPG" alt="Photo of Richelle Williams" width="300" height="300"/>
+        <div><img id="Photo-of-Richelle-Williams" src="Photo-of-Richelle-Williams.JPG" alt="Photo of Richelle Williams" width="300" height="300"/></div>
         <h1 class="header-h1">Richelle Williams's Blog</h1>
         <p class="header-paragraph">A Young and Talented Web Developer and User Interface Designer</p>
     </header> 
     <main class="main-content">
-        <!-- blog posts --> 
-        <article>
+        <!-- blog posts -->
+        <article id="article1">
         <h2>Managing University Life</h2>
-        <p><time datetime="2022-09-29">September 29, 2022</time> by Richelle Williams</p>
+        <p id="date-and-author"><time  datetime="2022-09-29">September 29, 2022</time> by Richelle Williams</p>
+        <img id="studying" src="studying.jpg" alt="man studying at a desk with a sad expression" width="300" height="300"/>
         <p>University life is one that an individual can never truly be prepared for. No matter how much advice
             you receive, it is still a battle of finding the right balance between all the aspects of your life.
             However, managing your university life, specifically, takes skill, which is time management. <br /><br />
@@ -35,11 +36,12 @@
             win wisely. Because with the effort you are putting in to get 100% for that assignment worth 2%, you&apos;re
             forgetting about that project you have due in 4 days worth 35%. Yes, priorities. The key to managing
             university life is simply put balance.</p>       
-        <img src="studying.svg" alt="man studying at a desk with a sad expression" width="300" height="300"/>
         </article>
-        <article>
+        <hr>
+        <article id="article2">
         <h2>The Art of Self-Care</h2>
-        <p><time datetime="2022-09-29">September 29, 2022</time> by Richelle Williams</p>
+        <p id="date-and-author2"><time datetime="2022-09-29">September 29, 2022</time> by Richelle Williams</p>
+        <img id="self-care" src="self-care.jpg" alt="woman doing yoga" width="350" height="260"/>
         <p>According to Google, self-care is the process of taking care of oneself with behaviours that promote health and
             active management of illness when it occurs. Self-care is important as it helps individuals be in their right
             minds to function effectively. Despite its importance, self-care is often neglected and placed at the bottom of
@@ -50,19 +52,20 @@
             stresses of life, just like a reset button. As we know, a reset button takes something back to its original state.
             Self-care helps to reset your mind so that you can become more focused and perform better on your outstanding task
             that requires a lot of brain power. The art of self-care is one you choose for yourself, as art is subjective.</p>
-        <img src="self-care.svg" alt="woman doing yoga" width="300" height="300"/>
-        </article>
+         </article>
     </main>
     <aside class="sidebar">
-        <!-- sidebar --> 
-        <h3>About</h3>
-        <p>I am a second-year student pursuing a major in Software Engineering at The University of the West Indies, Mona. 
-            I enjoy creating art, graphic designing and listening to music.</p>
-        <h3>Social Media</h3>
+        <!-- sidebar -->
+        <div id="about-section">
+            <h3 id="about">About</h3>
+            <p id="about-sentences">I am a second-year student pursuing a major in Software Engineering at The University of the West Indies, Mona. 
+                I enjoy creating art, graphic designing and listening to music.</p>    
+        </div>
+       <h3 id="social-media">Social Media</h3>
         <ul>
             <li><a href="https://www.instagram.com/richellealazne/">Instagram</a></li>
         </ul>
-        <h3>Archives</h3>
+        <h3 id="archives">Archives</h3>
         <ul>
             <li><a href=#>April 2022</a></li>
             <li><a href=#>May 2022</a></li>
