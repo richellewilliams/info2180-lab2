@@ -7,3 +7,33 @@ body {
     color: #2D3748;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans- serif;
 }
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        'header header'
+        'main-content sidebar'
+        'footer footer';
+}
+
+.header {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main-content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.header-h1, .header-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
