@@ -1,13 +1,13 @@
 #Photo-of-Richelle-Williams {
     border-radius: 50%;
-  }
+}
 
-#studying {
+#studying-picture {
     float: right;
     margin: 0 0 30px 40px;
 }
 
-#self-care {
+#self-care-picture {
     float: left;
     margin: 0 54px 30px 0; 
 }
@@ -15,7 +15,7 @@
 body {
     font-size: 18px;
     color: #2D3748;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans- serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
@@ -29,25 +29,30 @@ header {
     color: #FFFFFF;
 }
 
-#article1 {
+main {
     grid-column: 1;
-    padding: 60px 110px 45px;
-}
-
-#article2 {
-    padding: 30px 110px 170px 110px;
 }
 
 aside {
     grid-column: 2;
-    padding: 60px 70px;
+    padding: 60px 90px 60px 50px;
 }
 
 footer { 
     grid-column: 1/3;
-    color: #FFFFFF;
     background-color: #2C5282;
-    padding-left: 200px;
+    color: #FFFFFF;
+    padding-left: 190px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#blog1 {
+    padding: 60px 90px 45px 120px;
+}
+
+#blog2 {
+    padding: 30px 90px 170px 120px;
 }
 
 .header-h1, .header-paragraph {
@@ -66,7 +71,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header-paragraph{
+.header-paragraph {
     padding-bottom: 45px;
 }
 
@@ -75,14 +80,19 @@ h2 {
     color: #48BB78;
 }
 
-#date-and-author, #date-and-author2 {
+#date-and-author1, #date-and-author2 {
     color: #718096;
     padding-bottom: 30px;
 }
 
 hr {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 120px;
+    margin-right: 90px;
+}
+
+#about-section {
+    background-color: #E2E8F0;
+    padding: 100;
 }
 
 #about {
@@ -93,16 +103,9 @@ hr {
 }
 
 #about-sentences {
-    background-color: #E2E8F0;
-    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-}
-
-#about-section {
-    background-color: #E2E8F0;
-    padding: 100;
 }
 
 #social-media, #archives {
@@ -117,6 +120,10 @@ hr {
     padding-top: 60px;
 }
 
+#social-media-and-archives {
+    padding-left: 25px;
+}
+
 a {
     color: #4299E1;
 }
@@ -126,33 +133,3 @@ ul {
     margin: 0px;
     padding-left: 0px;
 }
-
-/*.container {
-    display: grid;
-    grid-template-areas: 
-        'header header'
-        'main-content sidebar'
-        'footer footer';
-}
-
-.header {
-    grid-area: header;
-    background-color: #8ca0ff;
-}
-
-.main-content {
-    grid-area: main-content;
-    background-color: #ffa08c;
-    padding: 40px 110px;
-}
-
-.sidebar {
-    grid-area: sidebar;
-    background-color: #ffff64;
-}
-
-.footer {
-    grid-area: footer;
-    background-color: #8cffa0;
-}
-*/
